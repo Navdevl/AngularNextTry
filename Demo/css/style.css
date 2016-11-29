@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+@import url('https://fonts.googleapis.com/css?family=Rancho');
+footer .clr {
+    background: rgba(0, 0, 0, 0.8);
+    height: 100%;
+}
+#init {
+    background: rgb(179, 1, 23);
+    padding: 3.4%;
+    color: white;
+}
+.heading {
+    color: black;
+    padding: 5px;
+    display: inline-block;
+    background-color: white;
+    font-size: 3em;
+    font-family: 'Rancho', cursive;
+}
+p.h3 {
+    font-family: 'Rancho', cursive;
+    color: rgba(0, 0, 0, 0.8) !important;
+    padding: 5px;
+    display: inline-block;
+    background-color: white;
+}
+.images {
+    margin-top: 5%;
+}
+.bordered-info {
+    /*border: 2px solid rgba(0,0,0,0.8);*/
+
+    margin-top: 3%;
+    padding-top: 2%;
+}
+p.text-right {
+    font-family: 'Rancho', cursive;
+    font-size: 1.5em;
+}
+.img-responsive:hover {
+    opacity: .8;
+}
+.drag {
+    line-height: 2em;
+}
+footer div {
+    padding-bottom: .5%;
+    margin-top: 1%;
+}
+p.template {
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    background-color: rgb(179, 1, 23);
+    font-family: 'Rancho', cursive;
+}
+p.info {
+    font-family: 'Cabin', sans-serif;
+    line-height: 2em;
+    font-weight: bold;
+}
+.fa {
+    color: white;
+    margin-top: 3%;
+}
+.myicon {
+    display: inline;
+    padding-left: 6%;
+    padding-right: 6%;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html ng-app="myApp" lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title></title>
+      <!-- Bootstrap -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+      <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="controller/app.js" charset="utf-8"></script>
+      <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+      <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+      <script src="js/script.js" charset="utf-8"></script>
+   </head>
+   <body>
+      <div class="container-fluid">
+         <div class="row" id="init">
+            <div class="container">
+               <div class="col-xs-12">
+                 <a href="#/"><p class="h1 heading">Wanna know about me?</p></a>
+
+                  <br>
+                  <p class="h3 ">This is the right place</p>
+                  <p class="text-right">Developed for learning purpose</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container">
+         <div class="row">
+            <div class="col-xs-12">
+               <p class="h4 text-center text-danger drag">Swipe the images to know more topics about me.!<br>Click on them for details.!</p>
+            </div>
+         </div>
+         <div class="row images responsive" >
+            <div class="col-xs-3">
+               <a href="#/page1"><img src="img/1.jpg" class="img-responsive" alt=""></a>
+            </div>
+            <div class="col-xs-3">
+               <a href="#/page2"><img src="img/2.jpg" class="img-responsive" alt=""></a>
+            </div>
+            <div class="col-xs-3">
+               <a href="#/page3"><img src="img/3.jpg" class="img-responsive" alt=""></a>
+            </div>
+            <div class="col-xs-3">
+               <a href="#/page4"><img src="img/4.jpg" class="img-responsive" alt=""></a>
+            </div>
+            <div class="col-xs-3">
+               <a href="#/page5"><img src="img/5.jpg" class="img-responsive" alt=""></a>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-xs-12">
+               <div ng-view class="bordered-info" id="info">
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <footer>
+        <div class="container-fluid clr">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-md-offset-3 col-md-6">
+
+                <h1 class="myicon"><a href="https://in.linkedin.com/in/naveen-honest-raj-089b08ab"><i class="fa fa-linkedin" aria-hidden="true"></i></a></h1>
+                <h1 class="myicon"><a href="https://github.com/Naveendurai"><i class="fa fa-github" aria-hidden="true"></i></a></h1>
+                <h1 class="myicon"><a href="https://www.facebook.com/navdevl"><i class="fa fa-facebook" aria-hidden="true"></i></a></h1>
+                <h1 class="myicon"><a href="https://www.instagram.com/nav_devl/"><i class="fa fa-instagram" aria-hidden="true"></i></a></h1>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </footer>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+   </body>
+</html>
